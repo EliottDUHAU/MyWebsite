@@ -163,6 +163,7 @@
     const menuHamburger = document.querySelector(".hamburger");
     const navLinks = document.querySelector(".link");
     const body = document.body;
+    const navItems = document.querySelectorAll(".link a");
 
     menuHamburger.addEventListener('click', () => {
         navLinks.classList.toggle('mobile-menu');
@@ -172,6 +173,13 @@
         } else {
             body.style.overflow = 'auto';
         }
+    });
+
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            navLinks.classList.remove('mobile-menu');
+            body.style.overflow = 'auto';
+        });
     });
 </script>
 </html>
