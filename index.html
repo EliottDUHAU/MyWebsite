@@ -28,7 +28,14 @@
 
     <section class="homepage">
         <div class="homecontent">
-            <h1 id="title">Eliott, at your service </h1>
+            <h1 class="title" id="title">Eliott, at your service
+                <div class="aurora">
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                </div>
+            </h1>
             <h3>Pré-MSC Epitech Student</h3>
             <p>Brewing focus and energy in every cup, because exceptional work starts with the perfect coffee.</p>
         </div>  
@@ -80,9 +87,9 @@
                         <h3>Languages</h3><br><br>
                     
                         <div class="skill-logo">
-                            <img width="100" height="100" src="https://img.icons8.com/stickers/100/france.png" alt="france"/>
-                            <img width="100" height="100" src="https://img.icons8.com/stickers/100/usa.png" alt="usa"/>
-                            <img width="100" height="100" src="https://img.icons8.com/stickers/100/germany--v1.png" alt="germany--v1"/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACzElEQVR4nO2dS2sTURTHb8FFwa39DPkAdWHU0C50XRciDdyFqLgc8wlaaHWvKW031W2703Yjc0QK4gPULjrjR7BFBTeZ404duTKVYCJz85jEJL8fnG2YnH/O4z5yxhgAAAAAAAAAAACAImgcPq1oJDtJFB4lsXzXWFJMvH3gfJbE4UeNZLvx4dnFroVI9/dPJXG4ifOlvz/ASNadbzsWBDGksExw/Prxo87TFKkpLdIHD5Zrt4wxU16CuJqBIFKoIAd7Wy+NMWf90lUUHv39ARsr9fRS5U46Xw6wsr8PnM82Vustgnx5t/fVGFM1xszkC9Kmm0KMoOsf4uVKrUWQRhT+yAQ5n5+y2oQYkRH05IN2Ps0EudKzIKV7zws1HVRDcdsWap6CLCJI/F8J4owIUQQhZSkRIqNQQ0hZiiB0WUqEyKi0vaQsRRBSlhIhQspi68RSQ3T097Io6oogFHUlQoSURVG31BClqHNiqHRZMs5HuLS9iiC0vUqECCmLttdSQ5SiTturdFlC28tVUss6pDSZd3tZGCqCsDBUIkRIWSwMLTVEKeosDJUuS2h7WRha1iElFob8C1dZqfO3aGXrRNjLYnCAZXNR2e1ltIay/S6ch7hUwPAZywGVcmLIeCblCHfi52VVGc8Uc8mBiXIxt07SibkGhAX9HIKZLwhjYoNBjomtdjdIebWezl1gkPJ8h2K4ecebd9daBPn89s8gZY+UFcn2wK5zTqi9f/J71LjfmNhvh3IuicKfw35oHWOr3bi2nAmykCtIFiXrw35oHVN7sbMWNqWrspcg7qUjn97sPhz2w+sYinF6eto2CZI/jL+Z+0vBzYPdrVeuCLnOYNhfSEfMnM+c79zrKYLrV0/S1InNmi6Yyt5z0fxBmOnZB7PeL3T5BzPZqxUWss4AUUxHPljMfOd8eKYXIQAAAAAAAAAAAAAAAABMv/gFJ2aTDUFMMcMAAAAASUVORK5CYII=" alt="france">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAECUlEQVR4nO2dy08TURSHr4kLErf6l+BCfCQmuseFMZK4MOq6Vs3oQuMDF8a48RE0KroUovGFUewQrS3QllKQziUmAgZfIBg1sb1ojMox0wykYE2nFDin+PuSs+kNw/T3zb09M4s7SgEAAAAAAAAAAAAAAAAAAPznZNKtG4xjN2ed0EhW27+Mtgll+87AzSyrQ++NYzdl+tvWz1kEhcPLszp0CeHb83sBOnaDm23JQiDDXrCVYDR293rpyxSWJlrIDM4dC+5RSi3zJcT9zYAQe0GF9LQ0diilVvtbrpzQyOwDXKw/T5vW7aWNNQFUjf8M3Mzc7Gbn+bG75bNSqk4ptaq4kALd1OYNkLFxjhejm93sPDNO6LcnZG3xJavAFMPMCJSVQaFMPSFbyhYSDJO4MgKbEJ9CtkOIFiWkbl5nSH10gq7FPhS8aq/GxuhUNFtw7HZimA4++1VwrKVrqOTjcc8GEUKa429p8HmcRvsi9Dj5kg48+537fH94kh4lB2gkHaVXfTG6mXgz/TeHIz/oafcL+uI8Id2boiux8emx0+0ZiqWc3P9LpNJ0pv1r0eNBSJ6QE5FvlNFtuQAbY2MzArrc+TH3eVbbdDI6MWPsQXIoN+YGfCjyc/rzfWGinp7e3Fi6N0X7wpO+jocZ4oVwJPKDOlKaHiYHqaHz04yALnR8ptauAYqm+ul49PuMsRvxd3QnMUzxlPNXsK1dA3Qr8ZpCyZe+jwchArqq4KwiyxJXLD/qUooECBAlhLvbIgECxAiR0G2RAAFihEjotkiAADFCJHRbRsCNIPuNoaQyAgRASBhC8CxLC54hErqrIJYsmc+ySEBXxd5lSeiughAis8siATOCfYZIKhIgQJQQPMuy5AiR0G0ZATeC7G2vpG7LCBAgRoiEbssIECBGiIQyAgRASBhCcjOEu52kCqlFW7K4vyhVSEGIxS8BQiz+4CHE4g9blBDudtJUSEGI5pcAIZo/eAjR/GFDiOYPWKwQ7u6FKqQgxOKXACEWf/AQYvGHDSEWf8AQYvGHWhFCuNtJUyEFIZpfAoRo/uAhRPOHDSGaP2CxQri7F6qQghCLXwKEWPzBQ4jFHzaEWPwBixWCCpScQVlCsE1sYDG3ifUhBBsp00JvpDyenN5I2ceS5dhN3DdVZolX6l5uq3F/28ROpO01WSc0yX3SZglXcNe2Y56Q2qJCvFnSwH3SZolWtPlCKG+5qvElxH3pyFj8/jXukzdLUMaKqqodeUKKb8afz9mjgd099xs73R8htzPg/kKmwsrNzM3OfT1FYOfWqWVqqqrVHFjmveci/0AoVXYG1b5f6PIPVnmvVqj1OgNIUSVlsN3Lzs1wZTkiAAAAAAAAAAAAAAAAACjh/AFknCH3c87SRwAAAABJRU5ErkJggg==" alt="usa">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC4ElEQVR4nO2dvWoUURhAb8AiYGvqYZ4hFu7iwhZar4VIAilE5ZbjPkECxgfQhCRNtE06TRrvXIuA+AOaFJn1EYyoYLM7FgPqyJWJLO7KzP6M34jnwNducc7M3WGKb5QCAAAAAAAAAAAAKIPu8ZNGHNndXhSe9Dr2a9yxKWMLO3DOep3wXRzZne7bpxfHDpEeHJzpdcIt5NvpXoCR3XBuRw5CDFvaSfD+5aOHox9THE1pmQ7ur7RvKaVmCgVx/xkEsaUGOdrffq6UOl/suIrCk99/YPPOWnqpcTtt1gKmVtyBc7a5ujYQ5NOb/c9KqUWl1Fx+kCFPU8QIxr4QLzfaA0G6UfgtC1LPP7KG3GLcGcFEDoY5zYJcmTiI79UZL99BwSALBPEqFcQNd4hPkP/vmGtyh9TFIxDEkxdPEE9eNkE8ecEE8eSlEsSTF0mQCsjzCSIvzCeIvCSfIPJifILIy/ArMLw68eQjEMSTFy8eJNZLjM53QBBdrQuFIFo+AkG0vHiCaHnZBNHyggmi5aUSRMuLJEgF5MUEkRcWE0ReUkwQeTExQeRlxBUYXp1o+QgE0fLiCaLlZRNEywsmiJaX+k8ESUyLMfkOCGKqdaEQxMhHIIiRF08QIy+bIEZeMEGMvFSCGHmRBKmAvIQg8sISgshLSggiLyYhiLyMpALDqxMjH4EgRl48QYy8bIIYecGVDcIE01yCmR+ENbHB31wTuzjeIuVVFik3x4jh9h1v3V0fCPLx9a9FygWOrMjusGrclrpq/PDxz1XjxdbEfjm2F3pR+J0otrQg7RvXVrIgrdwg2V2yQRBbSoxnu+th33FVKxTEfXTkw6u9B0SxU49xdnZ2qS9I/jL+fu4tBzeP9rZfuD8h92RAIDtSAOfMuXOfpwiuXz09pk5nXo3BTPadi/4fYtTEDuYLf9DlD8xln1ZoZU8GRFEjOVjI3DmH5yYJAQAAAAAAAAAAAAAAAKCmxQ+9MTS/g8nqQAAAAABJRU5ErkJggg==" alt="germany--v1">
                         </div><br><br>
                     
                         <h3>Programming Languages</h3><br><br>
@@ -127,7 +134,8 @@
                 </div>
 
                 <div class="under-box">
-
+                    <a href="image/CV Eliott DUHAU.pdf" class="Download" download="Eliott DUHAU CV.pdf">Download CV</a>
+                    <a href="https://github.com/EliottDUHAU" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(244, 211, 186,1)"><path d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z"></path></svg></a>
                 </div>
             </div>
         </section>
